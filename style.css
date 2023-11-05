@@ -1,0 +1,176 @@
+html {
+  background: #414042;
+}
+body {
+  font: 14px "Poppins";
+  color: #414042;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 100px 0 0 0;
+  min-width: 960px;
+}
+body > header {
+  height: 100px;
+  width: 100%;
+  background: #00386b;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: #00386b;
+  padding: 10px 0;
+}
+
+article h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: max-content;
+  border-bottom: 4px solid #ef6534;
+  margin: 0;
+}
+
+article h2 {
+  font-size: 2em;
+}
+
+article header {
+  height: 80px;
+}
+
+article section p {
+  line-height: 1.8em;
+  margin-bottom: 1.5em;
+}
+
+article section a {
+  color: #ef6534;
+}
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav ul li {
+  margin: 0 5px;
+  padding: 0 25px;
+  font-size: 1em;
+  line-height: 4.3em;
+}
+nav ul a {
+  color: white;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul a:hover,
+.aktivni a {
+  border-bottom: 2px solid #ef6534;
+}
+footer {
+  background: #414042;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100px;
+  color: white;
+  padding: 50px 0 0 0;
+  clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+.centrovany {
+  text-align: center;
+}
+
+.avatar {
+  float: right;
+  width: 300px;
+  padding-left: 10px;
+  filter: grayscale(1);
+}
+.cistic {
+  clear: both;
+}
+.reference-tlacitko {
+  background: #70b73a;
+  color: white;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+}
+.kontakt-tlacitko {
+  background: #ef6534;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+  filter: brightness(115%) contrast(85%);
+  border: 0;
+}
+.vlevo {
+  float: left;
+}
+#logo {
+  height: 40px;
+  margin: auto 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(images/logo.png) no-repeat;
+  background-size: 40px 40px;
+}
+#reference img {
+  border: 1px solid gray;
+  padding: 6px;
+  box-shadow: 3px 3px 6px #999999;
+  margin-right: 6px;
+}
+#dovednosti {
+  border-collapse: collapse;
+}
+#dovednosti td {
+  width: 33%;
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid gray;
+}
+#logo > * {
+  margin: 0 0 0 50px;
+}
+#logo h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: white;
+}
+#logo h1 span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#logo small {
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 50px 50px 10px 50px;
+}
